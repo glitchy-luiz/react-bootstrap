@@ -5,6 +5,7 @@ function Sobre(){
     return(
         <div>
             <Cabeca/>
+            <h2>Sobre nós</h2>
             <Rodape/>
         </div>
     )
