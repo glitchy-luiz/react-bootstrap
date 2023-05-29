@@ -53,6 +53,15 @@ img{
   font-size: 20px;
 }
 .formulario{
-  margin: 40px;
+  margin-right: 30px;
   width: 45%;
+}
+.contc{
+  margin: 40px;
+  display: flex;
+}
+.icone{
+  width: 40px;
+  height: 40px;
+  margin-left: 100px;
 }

@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 function Cabeca() {
     return (
       <>
+      <header>
       <div className="cab">
         <h1 className="text-center mt-4 mb-4">Shopet</h1>
         <p className="text-center mt-4 mb-4">Loja do seu pet</p>
@@ -18,6 +19,7 @@ function Cabeca() {
           </Nav.Item>
         </Nav>
         </div>
+        </header>
       </>
     );
   }
