@@ -1,0 +1,22 @@
+img{
+  width: 600px;
+  height: 500px;
+}
+.textoc{
+  color: black;
+}
+.imgcard{
+  width: 286px;
+  height: 180px;
+}
+.prods{
+  margin-bottom: 30px;
+  margin: 20px;
+}
+.produto{
+  display: flex;
+  justify-content: center;
+}
+.cab{
+  background-color:bisque;
+}
