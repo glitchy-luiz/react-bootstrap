@@ -7,8 +7,12 @@ import Home from './pages/Home';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
+import React from 'react';
+import { useState, useEffect } from 'react'
 
 function App() {
+
+  
 
   return (
     <>

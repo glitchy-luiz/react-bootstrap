@@ -50,14 +50,14 @@ img{
   height: 600px;
 }
 .ps{
-  font-size: 20px;
+  font-size: 18px;
 }
 .formulario{
-  margin-right: 30px;
+  margin-right: 100px;
   width: 45%;
 }
 .contc{
-  margin: 40px;
+  margin: 60px;
   display: flex;
 }
 .icone{

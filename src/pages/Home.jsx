@@ -16,8 +16,6 @@ function Home(){
           alt="First slide"
         />
         <Carousel.Caption>
-          {/* <h3 className="textoc">First slide label</h3>
-          <p className="textoc">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -28,8 +26,6 @@ function Home(){
         />
 
         <Carousel.Caption>
-          {/* <h3 className="textoc">Second slide label</h3>
-          <p className="textoc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,16 +36,12 @@ function Home(){
         />
 
         <Carousel.Caption>
-          {/* <h3 className="textoc">Third slide label</h3>
-          <p className="textoc">
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
     <hr />
-    <h2 className="text-center">Produtinhos</h2>
-    <Produtos/>
+    <h2 className="text-center">Produtos</h2>
+    <Produtos nome="coleira" image="https://cdn.awsli.com.br/600x450/237/237332/produto/30649363/fbf3c1b1fc.jpg" preco="49,99"/>
     <Rodape/>
         </div>
     )
