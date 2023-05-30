@@ -5,18 +5,16 @@ import Navbar from 'react-bootstrap/Navbar';
 function Rodape() {
   return (
     <>
-    <footer>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Shopet</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      </footer>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/">Home</a></li>
+                <li class="list-inline-item"><a href="/contato">Contato</a></li>
+                <li class="list-inline-item"><a href="/sobre">Sobre</a></li>
+            </ul>
+            <p class="copyright">Shopet (feito por Luiz Souza) © 2023</p>
+        </footer>
+    </div>
       </>
       );
 }

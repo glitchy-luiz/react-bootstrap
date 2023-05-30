@@ -41,7 +41,10 @@ function Home(){
     </Carousel>
     <hr />
     <h2 className="text-center">Produtos</h2>
-    <Produtos nome="coleira" image="https://cdn.awsli.com.br/600x450/237/237332/produto/30649363/fbf3c1b1fc.jpg" preco="49,99"/>
+    <div className="produtocont">
+      <Produtos nome="coleira" image="https://cdn.awsli.com.br/600x450/237/237332/produto/30649363/fbf3c1b1fc.jpg" preco="49,99"/>
+      <Produtos nome="Caixa de transporte" image="https://www.furacaopet.com.br/imagens/informacoes/fornecedores-produtos-pet-shop-01.jpg" preco="159,99"/>
+    </div>
     <Rodape/>
         </div>
     )
